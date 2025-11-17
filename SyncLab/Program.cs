@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-//実行確認のため、一時指定①
+//
 builder.WebHost.UseUrls("http://0,0,0,0:5212");
 
 // Add services to the container.
