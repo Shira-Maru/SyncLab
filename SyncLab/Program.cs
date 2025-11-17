@@ -13,7 +13,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+//実行確認のため、コメントアウト
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
