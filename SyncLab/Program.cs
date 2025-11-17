@@ -16,7 +16,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-//実行確認のため、コメントアウト
+//②実行確認のため、コメントアウト
 //app.UseHttpsRedirection();
 app.UseStaticFiles();
 
